@@ -33,10 +33,12 @@ public class Main {
         st5.alder = 28;
         st5.by = "Næstved";
 
+        System.out.println("Alle studerende i gruppen er oprettet");
+
 
         // Scanner som finder alderen på de studerende i studiegruppe
 
-
+// dette er en uendelig lykke
         while (true) {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Hvis alder i studiegruppen, vil du slå op? ");
@@ -67,6 +69,7 @@ public class Main {
                     System.out.println(st5.alder);
 
                     break;
+
 
                 default:
                     System.out.println(nameToFind + " Personens navn findes ikke i databasen.");
