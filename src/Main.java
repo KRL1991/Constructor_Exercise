@@ -10,13 +10,10 @@ public class Main {
         st1.by = "Haslev";
 
 
-        Studerende st2 = new Studerende();
-        st2.navn = "Anders";
-        st2.alder = 28;
-        st2.by = "Køge";
+        Studerende st2 = new Studerende("Anders", 28,"Køge");
 
 
-        Studerende st3 = new Studerende();
+        Studerende st3 = new Studerende("Mathias",20);
         st3.navn = "Mathias";
         st3.alder = 20;
         st3.by = "Næstved";
